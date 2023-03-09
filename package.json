@@ -1,0 +1,36 @@
+{
+  "name": "comp-lib",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "storybook": "storybook dev -p 6006",
+    "build-storybook": "storybook build"
+  },
+  "dependencies": {
+    "classnames": "^2.3.2",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-icons": "^4.8.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.21.0",
+    "@storybook/addon-actions": "^7.0.0-beta.64",
+    "@storybook/addon-essentials": "^7.0.0-beta.64",
+    "@storybook/addon-interactions": "^7.0.0-beta.64",
+    "@storybook/addon-links": "^7.0.0-beta.64",
+    "@storybook/addon-mdx-gfm": "^7.0.0-beta.64",
+    "@storybook/react": "^7.0.0-beta.64",
+    "@storybook/react-vite": "^7.0.0-beta.64",
+    "@storybook/testing-library": "^0.0.14-next.1",
+    "@types/react": "^18.0.27",
+    "@types/react-dom": "^18.0.10",
+    "@vitejs/plugin-react": "^3.1.0",
+    "babel-loader": "^8.3.0",
+    "storybook": "^7.0.0-beta.64",
+    "vite": "^4.1.0"
+  }
+}
