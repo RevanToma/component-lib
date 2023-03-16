@@ -26,6 +26,7 @@
   },
   "devDependencies": {
     "@babel/core": "^7.21.0",
+    "@storybook/addon-a11y": "^6.5.16",
     "@storybook/addon-actions": "^7.0.0-beta.64",
     "@storybook/addon-essentials": "^7.0.0-beta.64",
     "@storybook/addon-interactions": "^7.0.0-beta.64",
@@ -43,6 +44,7 @@
     "@types/react-dom": "^18.0.10",
     "@vitejs/plugin-react": "^3.1.0",
     "babel-loader": "^8.3.0",
+    "react-scripts": "^5.0.1",
     "storybook": "^7.0.0-beta.64",
     "vite": "^4.1.0"
   }

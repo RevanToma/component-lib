@@ -8,6 +8,7 @@ const Star = ({ selected, onSelect = (f) => f }) => (
     className="star"
     color={selected ? "#FFCB45" : "#F2F2F2"}
     onClick={onSelect}
+    data-testid="star"
   />
 );
 
